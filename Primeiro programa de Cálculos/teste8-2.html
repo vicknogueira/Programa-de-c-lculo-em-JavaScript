@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Teste 8 parte 2</title>
+    <style>
+        body{
+            font-family: monospace;
+            text-align: center;
+        }
+        #txt1{
+            width: 5%;
+            margin-right: 2px;
+        }
+        #txt2{
+            width: 5%;
+            margin-right: 2px;
+            margin-left: 2px;
+        }
+        #bot{
+            background-color: rgb(28, 168, 28);
+            border: 0;
+            border-radius: 2px;
+            height: 23px;
+        }
+        #res{
+            width: 3%;
+        }
+        section{
+            display: flex;
+            justify-content: center;
+        }
+
+    </style>
+</head>
+<body>
+    <h1> Olá mundo - Somando valores</h1>
+    <section>
+            <input type="number" name="txt1" id="txt1"> +
+            <input type="number" name="txt2" id="txt2"> =
+            <div id="res"></div>
+            <!-- <input type="text"  name="res" id="res">  -->
+            <input type="button" value="Somar" id='bot' onclick="somar()">
+    </section>
+   
+
+    <script src="teste8-2.js"></script>
+</body>
+</html>
